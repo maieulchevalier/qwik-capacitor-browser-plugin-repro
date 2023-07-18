@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import InAppBrowser from "~/components/inAppBrowser/inAppBrowser";
 
 import Counter from "~/components/starter/counter/counter";
 import Hero from "~/components/starter/hero/hero";
@@ -22,6 +23,8 @@ export default component$(() => {
         </h3>
         <Counter />
       </div>
+
+      <InAppBrowser />
 
       <div class="container container-flex">
         <Infobox>
